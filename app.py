@@ -49,6 +49,29 @@ st.markdown("""
         background-color: #3E1A5B;
         color: white;
     }
+    .stApp {
+    background-color: #0e1117;
+    }
+    section[data-testid="stSidebar"] {
+    background-color: #161a1f;
+    }
+     /* ===== Markdown text ===== */
+    .stMarkdown, .stMarkdown p {
+        color: #dcdcdc;
+        font-size: 16px;
+    }
+    .st-emotion-cache-14vh5up{
+         background-color: #0e1117;  
+        }
+            
+    .st-emotion-cache-1r4qj8v{
+            color : white;
+        }
+    
+    .st-emotion-cache-5r6ut5{
+            color : rgba(250, 250, 250, 0.6);
+        }
+    
     </style>
 """, unsafe_allow_html=True)
 col1 , col2 = st.columns([0.6, 0.4] , gap="xlarge" , vertical_alignment="center")
@@ -82,4 +105,5 @@ with st.sidebar:
    st.markdown("**school : Mohammed Othman**")
    st.markdown("**grade : 12**")
    st.markdown("**country : Egypt**")
+
    st.markdown("**dream major : Computer Science**")
