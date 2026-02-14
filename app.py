@@ -43,18 +43,7 @@ st.markdown("""
         background-color: #3E1A5B;
         color: white;
     }
-    section[data-testid="stSidebar"] {
-    background-color: #161a1f;
-    }
-     /* ===== Markdown text ===== */
-    .stMarkdown, .stMarkdown p {
-        color: #dcdcdc;
-        font-size: 16px;
-    }
-    
-    .st-emotion-cache-104fm5o h3 {
-            color : white;
-    }
+     
     </style>
 """, unsafe_allow_html=True)
 col1 , col2 = st.columns([0.6, 0.4] , gap="xlarge" , vertical_alignment="center")
@@ -88,4 +77,5 @@ with st.sidebar:
    st.markdown("**school : Mohammed Othman**")
    st.markdown("**grade : 12**")
    st.markdown("**country : Egypt**")
-   st.markdown("**dream major : Computer Science**")
+
+   st.markdown("**dream major : Medicine**")
